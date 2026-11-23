@@ -38,7 +38,3 @@ final class GenerateReport implements ShouldQueue, ShouldBeUnique
     }
 }
 
-interface ReportGenerator
-{
-    public function generate(int $reportId): void;
-}
